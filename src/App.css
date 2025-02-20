@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: rgb(24, 114, 199);
 }
 
 .App-logo {
@@ -27,6 +28,25 @@
 .App-link {
   color: #61dafb;
 }
+.iconButton {
+  transition: all 0.2s !important;
+}
+
+.iconButton:hover {
+  background-color: #c5c5c5 !important;
+  box-shadow: 0px 7px 7px rgba(0,0,0,0.4);
+}
+.cardHover{
+  transition: all 0.2s !important;
+  padding: 10px;
+
+}
+.cardHover:hover{
+  padding: 15px 0;
+  box-shadow: 0px 7px 7px rgba(0,0,0,0.4);
+
+
+}
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +56,33 @@
     transform: rotate(360deg);
   }
 }
+
+/* custom fonts */
+
+@font-face {
+  font-family: Alex;
+  src: url("../public/fonts/Alexandria-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Alex;
+  src: url("../public/fonts/Alexandria-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Alex;
+  src: url("../public/fonts/Alexandria-Black.ttf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Alex;
+  src: url("../public/fonts/Alexandria-Light.ttf");
+  font-weight: 200;
+}
+
+
+/* custom fonts */
+
